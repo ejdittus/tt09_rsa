@@ -41,8 +41,8 @@ jobs:
      - name: install PDK
        uses: actions/checkout@v4
        with:
-         repository: tinytapeout/IHP-Open-PDK
-         ref: tt
+         repository: TinyTapeout/IHP-Open-PDK
+         ref: tt-ihp-0p2
          path: IHP-Open-PDK
      - name: Setup python
        uses: actions/setup-python@v5
